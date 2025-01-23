@@ -1,0 +1,43 @@
+.skills {
+    margin: 30px;
+    background-color: #f4f4f4;
+  }
+  
+  .skills-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .skill-item {
+    width: 200px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .skill-bar {
+    height: 10px;
+    margin-top: 10px;
+    background-color: #ddd;
+  }
+  
+  .java {
+    width: 80%;
+    background-color: #f8b400;
+  }
+  
+  .spring-boot {
+    width: 70%;
+    background-color: #6dbf47;
+  }
+  
+  .react {
+    width: 75%;
+    background-color: #61dafb;
+  }
+  
+  .agile {
+    width: 90%;
+    background-color: #007bff;
+  }
+  

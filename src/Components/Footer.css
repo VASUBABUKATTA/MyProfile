@@ -1,0 +1,63 @@
+/* Footer container styling */
+.footer {
+    background-color: #1f2937; /* Dark gray background */
+    height: 20px;
+    color: white;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+    position: relative; /* Positioning footer normally within the flow of content */
+    bottom: 0; /* Ensures the footer is at the bottom when content is less */
+  }
+  
+  /* Text styling */
+  .footer p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  /* Links in the footer */
+  .footer-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap; /* Wrap links for smaller screens */
+  }
+  
+  .footer-link {
+    color: #60a5fa; /* Light blue */
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .footer-link:hover {
+    color: #2563eb; /* Darker blue on hover */
+  }
+  
+  /* Responsive design with media queries */
+  
+  /* Medium screens (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .footer {
+      text-align: left;
+      padding: 2rem 4rem;
+    }
+    .footer-links {
+      justify-content: flex-start;
+    }
+  }
+  
+  /* Large screens (desktops, 1024px and up) */
+  @media (min-width: 1024px) {
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer p {
+      font-size: 1.125rem; /* Slightly larger text for large screens */
+    }
+  }
+  

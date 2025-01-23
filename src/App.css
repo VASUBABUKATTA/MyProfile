@@ -1,0 +1,14 @@
+/* App.css */
+*{
+  margin: 0;
+  padding: 0;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+main {
+  flex: 1; /* This ensures main content takes all available space */
+}

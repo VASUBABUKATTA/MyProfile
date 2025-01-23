@@ -1,0 +1,29 @@
+/* AboutPage.css */
+.about-container {
+    max-width: 1200px;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  
+  .name {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    color: #555;
+  }
+  
+  .text-content p {
+    line-height: 1.8;
+    color: #333;
+    font-size: 1.125rem;
+  }
+  
+  .text-content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Customize other styles as needed */
+  
