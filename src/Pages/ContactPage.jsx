@@ -20,7 +20,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-     axios.post('http://localhost:9090/send-email',formData).then((res)=>{console.log(res)});
+     axios.post('https://javamailsender-production.up.railway.app/send-email',formData).then((res)=>{console.log(res)});
       setResponseMessage('Message sent successfully!');
     } catch (error) {
       setResponseMessage('Error sending message. Please try again later.');
