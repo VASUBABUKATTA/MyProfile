@@ -1,4 +1,4 @@
-/* Contact.css */
+/* Contact.css
 
 .contact-section {
     background-color: #f7f7f7;
@@ -79,4 +79,390 @@
       width: 90%;
     }
   }
+   *//* .homepage-body {
+  background-image: url('https://img.freepik.com/premium-photo/texture-white-bright-yellow-paper-background-half-two-colors-with-arrow-structure-craft-orange-cardboard_113767-6273.jpg');
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(77vh - 50px);
+  width: 1517px;
+  display: flex;
+  color: black;
+}
+
+.content {
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.homepage-heading {
+  font-size: 2.2rem;
+  font-weight: medium;
+ margin-top: 40px;
+}
+
+.homepage-paragraph {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 40px;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  margin-top: 30px;
+  border-radius: 500px;
+  box-shadow: 0px 4px 8px rgba(238, 233, 233, 0.2);
+  background-color: transparent;
+}
+.help-container {
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1200px;
   
+}
+.help-heading {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.help-description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555;
+  line-height: 1.5;
+}
+.help-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.customer-image{
+  
+  margin-right:5px;
+  
+}
+ .customer-support{
+  border-radius: 10%;
+ }
+
+.help-contact-options {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.help-contact-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  border-radius: 8px;
+  width: 65%;
+}
+
+.help-card-title {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.help-card-info {
+  font-size: 1rem;
+  color: #555;
+} */
+
+
+/* 
+ @media (max-width: 768px) {
+  .help-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .help-contact-options {
+    align-items: center;
+  }
+}  */
+
+/* Default styles are for larger screens (desktop) */
+
+/* Media queries for tablets (768px and below) */
+                                       
+ /* @media (max-width: 768px)  {
+  .homepage-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content {
+    margin: 0 15px;
+  }
+
+  .image {
+    margin: 20px 0;
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .help-container {
+    padding: 20px;
+  }
+
+  .help-contact-options {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .help-contact-card {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .customer-image img {
+    width: 100%;
+    height: auto;
+  }
+}  */
+
+/* Media queries for mobile devices (480px and below) */
+/* @media (max-width: 480px) */
+/* @media(min-width:250px) and (max-width:415px)
+
+ {
+  .homepage-heading {
+    font-size: 1rem;
+  }
+
+  .homepage-paragraph {
+    font-size: 0.9rem;
+  }
+
+  .help-heading {
+    font-size: 1.2rem;
+  }
+
+  .help-description {
+    font-size: 0.9rem;
+  }
+
+  .help-contact-card h3 {
+    font-size: 1rem;
+  }
+
+  .help-contact-card p {
+    font-size: 0.8rem;
+  }
+
+  .customer-image img {
+    width: 100%;
+    height: auto;
+  }
+}  */
+
+
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homepage-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-image: url('https://img.freepik.com/premium-photo/texture-white-bright-yellow-paper-background-half-two-colors-with-arrow-structure-craft-orange-cardboard_113767-6273.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.content {
+  flex: 1;
+  padding: 25px;
+}
+
+.homepage-heading {
+  font-size: 34px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 2px;
+}
+
+.homepage-paragraph {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  width: 445px;
+}
+
+.image {
+  flex: 1;
+  text-align: center;
+
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.help-heading {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color:#222;
+  text-align: center;
+  margin-top: 25px;
+  font-weight: bold;
+
+}
+
+.help-description {
+  font-size: 15px;
+  margin-bottom: 30px;
+  color: #666;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+}
+.help-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+}
+
+.help-contact-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.help-contact-card {
+  background-color: #fff;
+  padding: 15px 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+
+
+}
+
+.help-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.help-card-info {
+  font-size: 16px;
+  color: #555;
+}
+
+.customer-image {
+  margin-top: 5px;
+  text-align: center;
+  display: flex;
+  margin-bottom: 10px;
+
+}
+
+.customer-support {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 150px;
+  margin-bottom: 10px;
+  /* margin-top: 10px; */
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .homepage-body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content, .image {
+    flex: none;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .help-contact-options {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .help-contact-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage-heading {
+    font-size: 20px;
+  }
+
+  .homepage-paragraph {
+    font-size: 14px;
+  }
+
+  .help-heading {
+    font-size: 24px;
+  }
+
+  .help-description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .help-contact-card {
+    padding: 10px;
+
+  }
+
+  .help-card-title {
+    font-size: 16px;
+  }
+
+  .help-card-info {
+    font-size: 14px;
+  }
+
+  .customer-support {
+    width: 100%;
+    height: auto;
+  }
+}

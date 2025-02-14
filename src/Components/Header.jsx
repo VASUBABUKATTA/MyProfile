@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import profilepic from '../Assets/vasubabu.jpg';
+// import profilepic from '../Assets/vasubabu.jpg';
 
 const Header = () => {
   return (
