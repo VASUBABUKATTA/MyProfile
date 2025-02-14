@@ -5,10 +5,10 @@ import './AboutPage.css';
 const About = () => {
   return (
     <div className="about-container mx-auto p-8">
-      <h1 className="name text-center text-4xl font-bold mb-4">Vasubabbu Katta</h1>
-      <p className="title text-center text-xl text-gray-600 mb-8">Full Stack Developer | Java | React | Spring Boot</p>
+      
+      <h6 className="title text-center text-xl text-gray-600 mb-8 ">Full Stack Developer | Java | React | Spring Boot</h6>
 
-      <div className="text-content text-lg text-gray-800">
+      <div className="text-content text-lg text-gray-800 text-align-center">
         <p className="mb-4">
           Hello! I'm Vasubabbu Katta, a passionate Full Stack Developer with a strong foundation in Electronics and Communication Engineering (B.Tech). Over the years, I have honed my skills in software development, primarily working with Java, ReactJS, and Spring Boot to build scalable and efficient applications.
         </p>
