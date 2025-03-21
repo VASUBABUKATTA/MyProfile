@@ -13,7 +13,7 @@ const Homepage = () => {
           </div>
           <div className="profile-description">
             <p className="home-description">
-              Hello, I'm <strong>Vasubabu Katta</strong>, a dedicated and skilled freelancer specializing in building robust and scalable <strong>Spring Boot Microservices</strong> and dynamic, responsive user interfaces using <strong>React.js</strong> and <strong>Java</strong>. 
+              Hello, I'm <strong>Vasubabu Katta</strong>, a dedicated and skilled in building robust and scalable <strong>Java</strong>, <strong>Spring Boot</strong> & <strong>Microservices</strong> and dynamic, responsive user interfaces using <strong>React.js</strong> . 
             </p>
             <p className="home-description">
               With a passion for clean code and efficient solutions, I bring a results-driven approach to each project. Whether you're looking for high-performance backend systems or interactive front-end experiences, I'm here to help you turn your ideas into reality. 

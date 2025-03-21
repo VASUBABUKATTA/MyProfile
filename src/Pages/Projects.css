@@ -1,29 +1,32 @@
 /* Projects.css */
 .projects {
+  width: 100%;
   margin-top: 10px;
-  background-color: #f4f4f4;
-  padding: 50px 0;
+  /* background-color: #f4f4f4; */
+  padding:  0;
 }
 
 .container {
-  width: 80%;
+  width: 98%;
   margin: auto;
 }
 
 .section-title {
   text-align: center;
-  font-size: 2.5em;
-  margin-bottom: 40px;
+  /* font-size: 2.5em; */
+  /* margin-bottom: 40px; */
   color: #333;
 }
 
 .project-list {
+  padding: auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
+  gap: 21.05px;
 }
 
 .project-card {
+ margin: '';
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
@@ -43,6 +46,7 @@
 }
 
 .project-description {
+  text-align: justify;
   font-size: 1.1em;
   color: #666;
   margin-bottom: 15px;
@@ -64,6 +68,8 @@
   font-size: 1.1em;
   text-align: center;
   transition: background-color 0.3s;
+  justify-content: center;
+  align-items: center;
 }
 
 .view-btn:hover {

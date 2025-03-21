@@ -1,6 +1,7 @@
 .skills {
     margin: 30px;
     background-color: #f4f4f4;
+    padding: 10px;
   }
   
   .skills-list {
@@ -25,11 +26,18 @@
     width: 80%;
     background-color: #f8b400;
   }
+
+  .jdbc { width: 80%;background-color: #8b5cf6; }  
   
   .spring-boot {
     width: 70%;
     background-color: #6dbf47;
   }
+  .html { width: 90%;background-color: #e34f26; }     
+.css { width: 90%;background-color: #1572b6; }        
+.bootstrap { width: 90%;background-color: #7952b3; }  
+.javascript { width: 80%;background-color: #f7df1e; }
+.git { width: 80%;background-color: #f14e32; } 
   
   .react {
     width: 75%;
